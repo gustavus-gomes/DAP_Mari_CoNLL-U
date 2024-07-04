@@ -1,0 +1,260 @@
+# text = Историйыште эре тыге
+# translat. = In history it's always like that:
+1	Историйыште	_	NOUN	_	//	0	root	_	_
+2	эре	_	ADV	_	//always, constantly, all the time	3	advmod	_	_
+3	тыге	_	ADV	_	//so, like this	1	acl	_	_
+
+# text = калык вер гыч верыш кусныл коштеш
+# translat. = people move from place to place
+1	калык	_	NOUN	_	//people	5	nsubj	_	_
+2	вер	_	NOUN	_	//place	5	obl	_	_
+3	гыч	_	ADP	_	//from (postpos)	2	case	_	_
+4	верыш	_	NOUN	_	//place + case Ill	5	obl	_	_
+5	куснылкоштеш	_	VERB	_	//to move, to go (vb1); converb|//to go (vb1)	0	root	_	_
+
+# text = Амалже гына тӱрлӧ саманыште тӱрлӧ лиеда
+# translat. = Just the reason is going to be different in different times
+1	Амалже	_	NOUN	_	//cause, reason	6	nsubj	_	_
+2	гына	_	PART	_	_	1	advmod	_	_
+3	тӱрлӧ	_	ADP	_	//different	4	amod	_	_
+4	саманыште	_	NOUN	_	//times	6	obl	_	_
+5	тӱрлӧ	_	ADP	_	//different	6	cop	_	_
+6	лиеда	_	VERB	_	_	0	root	_	_
+
+# text = Марий-влакат илыш тургымын тӱрлӧ жапыштыже шуко йӧнысырым ужыныт
+# translat. = Also the Maris, in the turmoil of their lives, have seen many hardships
+1	Марий-влакат	_	NOUN	_	//Mari	8	nsubj	_	_
+2	илыш	_	NOUN	_	//life	8	advcl	_	_
+3	тургымын	_	NOUN	_	//turmoil	2	case	_	_
+4	тӱрлӧ	_	ADP	_	//different	5	amod	_	_
+5	жапыштыже	_	NOUN	_	//time +-ышты (case)	8	advcl	_	_
+6	шуко	_	ADP	_	//many	7	amod	_	_
+7	йӧнысырым	_	NOUN	_	//inconvenience + -ым(ACC)	8	obj	_	_
+8	ужыныт	_	VERB	_	//see	0	root	_	_
+
+# text = Тылеч посна, кугыжан Россий годымак, власть дене кӧныдымӧ-шамычым вуянче семын ссылкыш але каторгыш колтылыныт.
+# translat. = In addition to this, in the time of tsarist Russia, those who didn't agree with the power were sent into exile as rebels or into penal servitude.
+1	Тылеч	_	ADV	_	//from this	14	advmod	_	_
+2	посна	_	ADV	_	//isolated, separate	1	advmod	_	_
+3	кугыжан	_	NOUN	_	//czar	4	nmod	_	_
+4	Россий	_	NOUN	_	//Russia (place name)	14	obl	_	_
+5	годымак	_	ADP	_	//during (postp.)	4	case	_	_
+6	власть	_	NOUN	_	//authority	8	obl	_	_
+7	дене	_	ADP	_	//with (postp.) _	6	case	_	_
+8	кӧныдымӧ-шамычым	_	VERB	_	//agree (+neg + pl +acc)	14	obj	_	_
+9	вуянче	_	NOUN	_	//wild, rebellious	14	nsubj	_	_
+10	семын	_	ADP	_	//like (postp.)	9	case	_	_
+11	ссылкыш	_	NOUN	_	//exile	14	nmod	_	_
+12	але	_	CCONJ	_	//or (conjunction)	13	cc	_	_n
+13	каторгыш	_	NOUN	_	//penal servitude	11	conj	_	_
+14	колтылыныт	_	VERB	_	//send	0	root	_	_
+
+# text = 	Колымшо курым тӱҥалтыште Столыпинын аграрный реформыжо шуко калыкым Эрвелышкыла яра кийыше поян мландылан оза лияш кумылаҥден тарватен
+# translat. = At the beginning of the 20th century Stolypin's agrarian reform moved many people to the East to make them masters of lands that were lying empty.
+1	Колымшо	_	NUM	_	//twentieth	2	amod	_	_
+2	курым	_	NOUN	_	//century	3	nmod	_	_
+3	тӱҥалтыште	_	NOUN	_	//beginning	17	obl	_	_
+4	Столыпинын	_	PROPN	_	//Stolypinyn	6	nmod	_	_
+5	аграрный	_	ADJ	_	//agrarian	6	amod	_	_
+6	реформыжо	_	NOUN	_	//reform	17	nsubj	_	_
+7	шуко	_	ADJ	_	//many	8	amod	_	_
+8	калыкым	_	NOUN	_	//people	17	obj	_	_
+9	Эрвелышкыла	_	NOUN	_	//east (+ILL +STR)	17	obl	_	_
+10	яра	_	ADV	_	//vacantly	13	amod	_	_
+11	кийыше	_	VERB	_	//lie (+PTCP.ACT)	13	amod	_	_
+12	поян	_	ADJ	_	//rich	13	amod	_	_
+13	мландылан	_	NOUN	_	//land (+DAT)	14	nmod	_	_
+14	оза	_	NOUN	_	//owner	15	xcomp	_	_
+15	лияш	_	VERB	_	//be (+INF)	16	csubj	_	_
+16	кумылаҥден	_	NOUN	_	//mood (+TRANS +CAUS +PST2 +3SG)	17	conj	_	_
+17	тарватен	_	VERB	_	//move (+PST2 +3SG)	_	_	_	_
+
+# text = А 1930 ийлаште да сар деч варат Мӱндыр Йӱдвел миллионло «калык тушманым» йӱштӧ помышешыже авалтен
+# translat. = In the 1930s and after the war, millions of "enemies of the people" were sent into the cold of the Far North.
+1	А	_	CCONJ	_	//and (conj)	15	cc	_	_
+2	1930	_	NUM	_	//1930	15	obl	_	_
+3	ийлаште	_	NOUN	_	//year (+pl +ine)	2	nmod	_	_
+4	да	_	CCONJ	_	//and	5	cc	_	_
+5	сар	_	NOUN	_	//war	3	conj	_	_
+6	деч	_	ADP	_	//from	5	case	_	_
+7	варат	_	ADV	_	//then	15	advmod	_	_
+8	Мӱндыр	_	ADJ	_	//distant	9	nmod	_	_
+9	Йӱдвел	_	NOUN	_	//north	15	nmod	_	_
+10	миллионло	_	ADJ	_	_	15	nsubj	_	_
+11	«калык	_	NOUN	_	//people	12	nmod	_	_
+12	тушманым»	_	NOUN	_	//enemy	10	nmod	_	_
+13	йӱштӧ	_	ADJ	_	//cold	14	amod	_	_
+14	помышешыже	_	NOUN	_	//bosom (+lative)	15	nmod	_	_
+15	авалтен	_	VERB	_	//grasp 	0	root	_	_
+
+# text = Икманаш, кажне саманын шке чурийже.
+# translat. = In one word, each period has its own face.
+1	Икманаш	_	PART	_	//in a word	3	advmod	_	_
+2	кажне	_	DET	_	//each	3	det	_	_
+3	саманын	_	NOUN	_	//time (+gen)	0	root	_	_
+4	шке	_	PRON	_	//own	5	amod	_	_
+5	чурийже	_	NOUN	_	//face	3	nmod	_	_
+
+# text = Российын демократий корным ойырен налмекше, тиде сӱрет икмыняр вашталтын.
+# translat. = After Russia chose the path of democracy, this picture changed a bit.
+1	Российын	_	NOUN	_	//Russia	4	nsubj	_	_
+2	демократий	_	NOUN	_	//democracy	3	case	_	_
+3	корным	_	NOUN	_	//road	4	obj	_	_
+4	ойыренналмекше	_	VERB	_	//separate (ойырен) + take (налмекше) - Converb 	8	parataxis	_	_
+5	тиде	_	PRON	_	//this	6	det	_	_
+6	сӱрет	_	NOUN	_	//picture	8	nsubj	_	_
+7	икмыняр	_	ADV	_	//some	8	advmod	_	_
+8	вашталтын	_	VERB	_	_	0	root	_	_
+
+# text = Но вес кундемышке кайыше-толшо-влак шагалемын огытыл.
+# translat. = However, migrants to other places did not become fewer.
+1	Но	_	CCONJ	_	//but	6	cc	_	_
+2	вес	_	ADJ	_	//different	3	amod	_	_
+3	кундемышке	_	NOUN	_	//region + ILL	4	case	_	_
+4	кайыше-толшо-влак	_	NOUN	_	//casual visitor (+pl)	6	nsubj	_	_
+5	шагалемын	_	ADV	_	//little + adv	6	advmod	_	_
+6	огытыл	_	VERB	_	//be (neg + 3pl + vb.) 	0	root	_	_
+
+# text = Кызыт ты радамыште марий творческий интеллигенцийымат ончыкташ лиеш.
+# translat. = Now, in this framework, the Mari creative intelligencija can be highlighted.
+1	Кызыт	_	ADV	_	//now	7	advmod	_	_
+2	ты	_	DET	_	//this	3	det	_	_
+3	радамыште	_	NOUN	//row	_	7	obl	_	_
+4	марий	_	NOUN	_	//Mari	6	nmod	_	_
+5	творческий	_	ADJ	_	//creative	6	amod	_	_
+6	интеллигенцийымат	_	NOUN	_	//intelligentsia (+acc)	7	nsubj	_	_
+7	ончыкташлиеш	_	VERB	_	//look (vb2 + CAUS)|//be (vb1)	0	root	_	_
+
+# text = Мутлан, Россий писатель ушем член, поэт Валерий Якимов ынде ятыр ий Ямал-Ненец автоном округышто ила да журналист пашам ышта.
+# translat. = For example, the poet Valeri Yakimov, member of the Russian writers' union, has now been living in the Yamal-Nenets Autonomous Okrug for some years and works as a journalist.
+1	Мутлан	_	NOUN	_	//word, for example (+DAT)	15	obl	_	_
+2	Россий	_	NOUN	_	//Russia	3	nmod	_	_
+3	писатель	_	NOUN	_	//writer	4	nmod	_	_
+4	ушем	_	NOUN	_	//union	5	nmod	_	_
+5	член	_	NOUN	_	//part	7	nmod	_	_
+6	поэт	_	NOUN	_	//poet	7	appos	_	_
+7	Валерий	_	NOUN	_	_	15	nsubj	_	_
+8	Якимов	_	NOUN	_	_	7	flat	_	_
+9	ынде	_	ADV	_	//now	15	advmod	_	_
+10	ятыр	_	ADV	_	//much	11	det	_	_
+11	ий	_	NOUN	_	//year	15	obl	_	_
+12	Ямал-Ненец	_	NOUN	_	//Yamal Nenets	14	amod	_	_
+13	автоном	_	ADJ	_	//autonomous	14	amod	_	_
+14	округышто	_	NOUN	_	//okrug (+INE)	15	advmod	_	_
+15	ила	_	VERB	_	//live (+3SG)	0	root	_	_
+16	да	_	CCONJ	_	//and	19	cc	_	_
+17	журналист	_	ADJ	_	//journalist	18	amod	_	_
+18	пашам	_	NOUN	_	//work (+ACC)	19	obj	_	_
+19	ышта	_	VERB	_	//do (3SG)	15	conj	_	_
+
+# text = Мурызо, самодеятельный композитор Анатолий Куклин Красноярский крайысе Эвенкий автоном округышто вожаҥын
+# translat. = The singer and freelance composer Anatoliy Kuklin has settled down in Krasnoyarsk district of the autonomous Evenki okrug.
+1	Мурызо	_	NOUN	_	//singer	5	conj	_	_
+2	самодеятельный	_	ADJ	_	//amateur	3	amod	_	_
+3	композитор	_	NOUN	_	//composer	5	conj	_	_
+4	Анатолий	_	PROPN	_	_	5	flat	_	_
+5	Куклин	_	PROPN	_	_	11	nsubj	_	_
+6	Красноярский	_	NOUN	_	//Krasnoyarskiy	7	nmod	_	_
+7	крайысе	_	NOUN	_	//krai, territory (+-deriv.ad)	11	obl	_	_
+8	Эвенкий	_	NOUN	_	_	10	nmod	_	_
+9	автоном	_	ADJ	_	_	10	amod	_	_
+10	округышто	_	NOUN	_	//okrug (+ILL)	7	nmod	_	_
+11	вожаҥын	_	NOUN	_	//root (+-TRANS -PST2 -3SG)	0	root	_	_
+
+# text = А теве ме, Россий писатель да журналист ушемын членже-влак Геннадий Сабанцев ден Юрий Соловьев, Йӱдвел Иян океан серыш шумеш чоҥештышна.
+# translat. = So we, the members of the members of the Russian authors' union, Gennadij Sabancev and Yurij Solovev, flew up to the shores of the Arctic Ocean.
+1	А	_	CCONJ	_	_	19	cc	_	_
+2	теве	_	ADV	_	_	3	advmod	_	_
+3	ме	_	PRON	_	_	19	nsubj	_	_
+4	Россий	_	NOUN	_	_	5	nmod	_	_
+5	писатель	_	NOUN	_	//writer	8	nmod	_	_
+6	да	_	CCONJ	_	_	7	cc	_	_
+7	журналист	_	NOUN	_	_	5	conj	_	_
+8	ушемын	_	NOUN	_	//union (+GEN)	9	nmod	_	_
+9	членже-влак	_	NOUN	_	//part (+3SG(Poss) +PL)	3	appos	_	_
+10	Геннадий	_	PROPN	_	//Gennadiy	11	flat	_	_
+11	Сабанцев	_	PROPN	_	_	3	appos	_	_
+12	ден	_	CCONJ	_	//and	14	cc	_	_
+13	Юрий	_	PROPN	_	//Yuriy	14	flat	_	_
+14	Соловьев	_	PROPN	_	_	11	conj	_	_
+15	Йӱдвел	_	NOUN	_	//north	17	amod	_	_
+16	Иян	_	NOUN	_	//ice (+with deriv.ad)	17	amod	_	_
+17	океан	_	NOUN	_	//ocean	18	nmod	_	_
+18	серыш	_	NOUN	_	//shore (+ILL case)	19	obl	_	_
+19	шумешчоҥештышна	_	VERB	_	//Merge f. reach: шумеш (+ CVB.FUT) and fly: чоҥештышна(+PST1 +1PL)	0	root	_	_
+
+# text = Ик жап гыч Чукоткышкак журналист Эрнст Петров кайыш.
+# translat. = The journalist Ernst Petrov went to Chukotka a little while later.
+1	Ик	_	NUM	_	//one	2	nmod	_	_
+2	жап	_	NOUN	_	//time	8	obl	_	_
+3	гыч	_	ADP	_	//from (postp.)	2	case	_	_
+4	Чукоткышкак	_	PROPN	_	//Chukotka (+ILL +STR)	8	obl	_	_
+5	журналист	_	NOUN	_	_	8	nsubj	_	_
+6	Эрнст	_	PROPN	_	_	5	appos	_	_
+7	Петров	_	PROPN	_	_	6	flat	_	_
+8	кайыш	_	VERB	_	//to go (+PST1 tense +3SG)	0	root	_	_
+
+# text = Мо вара марий творческий пашаеҥ-влакым тушко шупшеш, шӱка, покта?..
+# translat. = So what pulls, pushes, and drives Mari creative workers then?..
+1	Мо	_	PRON	_	//what	7	nsubj	_	_
+2	вара	_	ADV	_	//then	7	advmod	_	_
+3	марий	_	NOUN	_	//Mari	5	nmod	_	_
+4	творческий	_	ADJ	_	//creative	5	amod	_	_
+5	пашаеҥ-влакым	_	NOUN	_	//worker (+PL + ACC)	7	obj	_	_
+6	тушко	_	ADV	_	//there	7	advmod	_	_
+7	шупшеш	_	VERB	_	//pull	0	root	_	_
+8	шӱка	_	VERB	_	//push (+3SG)	7	conj	_	_
+9	покта	_	VERB	_	//drive (+3SG)	7	conj	_	_
+10	?	_	PUNCT	_	_	7	punct	_	_
+
+# text = Ик кечын ме, кок марий журналист, кужу корныш — «оксан» Йӱдвелыш — тарванышна
+# translat. = One day we, two Mari journalists, set off on a long journey to the rich North
+1	Ик	_	NUM	_	//one	2	nummod	_	_
+2	кечын	_	ADV	_	//daily	13	obl	_	_
+3	ме	_	PRON	_	//we	13	nsubj	_	_
+4	кок	_	NUM	_	//two	6	nummod	_	_
+5	марий	_	NOUN	_	//Mari	6	amod	_	_
+6	журналист	_	NOUN	_	//journalist	3	appos	_	_
+7	кужу	_	ADJ	_	//long	8	amod	_	_
+8	корныш	_	NOUN	_	//road (+ILL)	13	obl	_	_
+9	—	_	PUNCT	_	_	11	punct	_	_
+10	«оксан»	_	NOUN	_	//money	11	nmod	_	_
+11	Йӱдвелыш	_	NOUN	_	//road (+ILL)	13	obl	_	_
+12	—	_	PUNCT	_	_	11	punct	_	_
+13	тарванышна	_	VERB	_	//move (+PST1 +1PL)	0	root	_	_
+
+# text = Тетла тыге илаш ок лий, — манна
+# translat. = We can't live like this anymore, we said
+1	Тетла	_	ADV	_	//anymore	2	advmod	_	_
+2	тыге	_	ADV	_	//so	3	advmod	_	_
+3	илаш	_	VERB	_	//live (+INF)	5	nsubj	_	_
+4	ок	_	PART	_	//NEG	5	advmod	_	_
+5	лий	_	VERB	_	//be (+CNG)	7	ccomp	_	_
+6	—	_	PUNCT	_	//-	7	punct	_	_
+7	манна	_	VERB	_	//say	0	root	_	_
+
+# text = Ала нылле ийым эртымеке да пачерлан оксам ыштена
+# translat. = Maybe after 40 years have passed, we will make enough money for an appartment
+1	Ала	_	ADV	_	//maybe	8	advmod	_	_
+2	нылле	_	NUM	_	//forty	3	nummod	_	_
+3	ийым	_	NOUN	_	//year	4	nsubj	_	_
+4	эртымеке	_	VERB	_	//pass	8	obl	_	_
+5	да	_	CCONJ	_	//and	8	cc	_	_
+6	пачерлан	_	NOUN	_	//flat (+DAT)	7	nmod	_	_
+7	оксам	_	NOUN	_	//money (+ACC)	8	obj	_	_
+8	ыштена	_	VERB	_	//do (+1PL)	0	root	_	_
+
+# text = А тарваненнаже Чукоткыш, континентышкыжат огыл, Арктика серыш — Певек олаш
+# translat. = And we moved to Chukotka not to the continent but to the shores of the Arctic to the city of Pevek
+1	А	_	CCONJ	_	//and	2	cc	_	_
+2	тарваненнаже	_	VERB	_	//move (+PST2 +1PL +3SG)	0	root	_	_
+3	Чукоткыш	_	PROPN	_	//Chukotka (+ILL)	2	obl	_	_
+4	,	_	PUNCT	_	_	5	punct	_	_
+5	континентышкыжат	_	NOUN	_	//continent (+ILL +3SG)	2	obl	_	_
+6	огыл	_	PART	_	NEG	5	advmod	_	_
+7	,	_	PUNCT	_	_	9	punct	_	_
+8	Арктика	_	PROPN	_	//Arktika	9	nmod	_	_
+9	серыш	_	NOUN	_	//shore (+ILL)	2	obl	_	_
+10	—	_	PUNCT	_	_	12	punct	_	_
+11	Певек	_	PROPN	_	//Pevek	12	nmod	_	_
+12	олаш	_	NOUN	_	//city (+ILL)	2	obl	_	_
